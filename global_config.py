@@ -42,7 +42,7 @@ class GlobalConfig:
     PPTX_TEMPLATE_FILES = {
         'Basic': {
             'file': 'pptx_templates/Blank.pptx',
-            'caption': 'A good start (Uses [photos](https://unsplash.com/photos/AFZ-qBPEceA) by [cetteup](https://unsplash.com/@cetteup?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-foggy-forest-filled-with-lots-of-trees-d3ci37Gcgxg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)) 🟧'
+            'caption': 'A good start 🟧'
         },
         'Minimalist Sales Pitch': {
             'file': 'pptx_templates/Minimalist_sales_pitch.pptx',
@@ -69,11 +69,6 @@ class GlobalConfig:
         '\n\n'
         ' You can also ask it to refine any particular slide, e.g.:\n'
         '- Make the slide with title \'Examples of AI\' a bit more descriptive.'
-        '\n\n'
-        'See this [demo video](https://youtu.be/QvAKzNKtk9k) for a brief walkthrough.\n\n'
-        ' SlideDeck AI does not have access to the Web, apart for searching for images relevant'
-        ' to the slides. Photos are added probabilistically; transparency needs to be changed'
-        ' manually, if required.'
     )
 
 
