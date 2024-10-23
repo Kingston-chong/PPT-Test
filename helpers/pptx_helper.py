@@ -110,7 +110,7 @@ def generate_powerpoint_presentation(
         title.text, len(parsed_data['slides']),
         GlobalConfig.PPTX_TEMPLATE_FILES[slides_template]['file']
     )
-    subtitle.text = 'by Myself and Maiden PowerPoint AI'
+    subtitle.text = 'by Myself and Maiden PowerPoint AI [Rayyan]'
     all_headers = [title.text, ]
 
     # Add content in a loop
