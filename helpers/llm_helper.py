@@ -9,7 +9,7 @@ from langchain_core.language_models import LLM
 from global_config import GlobalConfig
 
 
-HF_API_URL = f"https://api-inference.huggingface.co/models/{GlobalConfig.HF_LLM_MODEL_NAME}"
+HF_API_URL = f"https://router.huggingface.co/hf-inference/models/{GlobalConfig.HF_LLM_MODEL_NAME}"
 HF_API_HEADERS = {"Authorization": f"Bearer {GlobalConfig.HUGGINGFACEHUB_API_TOKEN}"}
 REQUEST_TIMEOUT = 35
 
